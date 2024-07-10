@@ -48,5 +48,4 @@ def chat_response():
     bot_response = chat.respond(user_message)
     return jsonify({"response": bot_response})
 
-if __name__ == "__main__":
-    app.run(debug=True)
+
